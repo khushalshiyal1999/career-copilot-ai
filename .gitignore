@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Environment files (keep .env.example committed)
+.env
+.env.*
+!.env.example
+
+# Build outputs
+frontend/.next/
+frontend/out/
+backend/dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Test & coverage
+coverage/
+.nyc_output/
+
+# Prisma
+backend/prisma/*.db
+backend/prisma/*.db-journal
+backend/prisma/migrations/**/migration_lock.toml.bak
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Caches
+.cache/
+.eslintcache
+.turbo/
+.vercel/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.pem
+tmp/
+temp/

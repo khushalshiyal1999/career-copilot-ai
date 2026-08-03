@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Generated Prisma client (recreated via `npx prisma generate`)
+src/prisma/generated
+
+# Logs
+*.log
+logs/
+
+# Tests
+coverage
+.nyc_output
+
+# IDE / OS
+.vscode
+.idea
+.DS_Store
